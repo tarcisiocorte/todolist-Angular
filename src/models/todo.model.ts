@@ -1,9 +1,7 @@
 export class Todo {
-  /**
-   *
-   */
-  constructor(
-    public id: number=1,
-    public title: String,
-    public done: Boolean) {}
+    constructor(
+        public id: Number,
+        public title: String,
+        public done: Boolean,
+    ) { }
 }
